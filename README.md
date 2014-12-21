@@ -27,7 +27,7 @@ whatever file you use to configure your shell:
 
 ```bash
 vman() {
-  vim "+SuperMan $@"
+  vim -c "SuperMan $*"
 
   if [ "$?" != "0" ]; then
     echo "No manual entry for $*"
