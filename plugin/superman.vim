@@ -19,7 +19,7 @@ function! superman#SuperMan(...)
   " (i.e., manpage not found)
   if line('$') == 1 | cquit | endif
 
-  " Why Man opens up in a split I shall never know
+  " Why :Man opens up in a split I shall never know
   only
 
   " Set options appropriate for viewing manpages
