@@ -45,7 +45,14 @@ To open the man page for `vim`:
 vman vim
 ```
 
-It's that simple.
+It's that simple. The underlying `:Man` command supports specifying a specific
+section, so you could also do something like
+
+```
+vman 3 printf
+```
+
+To see the man page for the C `printf()` library call.
 
 ## FAQ
 
