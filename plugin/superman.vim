@@ -34,7 +34,7 @@ function! superman#SuperMan(...)
   setlocal shiftwidth=8
 
   " To make us behave more like less
-  map q :q<CR>
+  noremap q :q<CR>
 endfunction
 
 " Command alias for our function
