@@ -45,6 +45,8 @@ To open the man page for `vim`:
 vman vim
 ```
 
+![vman vim](http://blog.zimmerman.io/images/vim.1.png)
+
 It's that simple. The underlying `:Man` command supports specifying a specific
 section, so you could also do something like
 
@@ -54,7 +56,11 @@ vman 3 printf
 
 To see the man page for the C `printf()` library call.
 
+![vman 3 printf](http://blog.zimmerman.io/images/printf.3.png)
+
 ## FAQ
+
+For more information, see the [associated blog post][blog].
 
 ### Jake, why not just call the bash function `man`?
 
@@ -67,4 +73,5 @@ things start to break, for example `apropos`, which uses `man` under the hood.
 MIT License. See LICENSE.
 
 
+[blog]: http://blog.zimmerman.io/2014/12/20/vim-as-a-man-page-viewer/
 
