@@ -68,10 +68,20 @@ The actual `man` command supports many more features than the Vim plugin does
 (for a complete list, see `man(1)`). If you shadow the real `man` command,
 things start to break, for example `apropos`, which uses `man` under the hood.
 
+### When I install `vim-superman` it looks nothing like this!
+
+There are a couple other plugins of mine featured prominently here, including
+[Solarized Dark][sdark] for the color scheme and [Vim Airline][vairline] for the
+statusbar. If you're curious about my whole setup, be sure to check out my
+[dotfiles repository][dotfiles].
+
 ## License
 
 MIT License. See LICENSE.
 
 
 [blog]: http://blog.zimmerman.io/2014/12/20/vim-as-a-man-page-viewer/
+[sdark]: https://github.com/altercation/vim-colors-solarized
+[vairline]: https://github.com/bling/vim-airline
+[dotfiles]: https://github.com/Z1MM32M4N/dotfiles
 
