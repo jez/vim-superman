@@ -17,7 +17,7 @@ function! s:unite_source.action_table['*'].preview.func(candidate)
 endfunction
 
 function! s:manpage(x)
-  return printf("%s %s", "Man", a:x)
+  return printf("%s %s", "SuperMan", a:x)
 endfunction
 
 function! s:unite_source.gather_candidates(args, context)
