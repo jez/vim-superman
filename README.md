@@ -35,7 +35,13 @@ vman() {
 }
 ```
 
-Close and reopen your terminal and you're set!
+Close and reopen your terminal and you're set! If you use zsh, you can even add
+
+```zsh
+compdef vman="man"
+```
+
+to your ~/.zshrc to get tab completion.
 
 ## Usage
 
