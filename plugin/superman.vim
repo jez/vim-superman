@@ -32,6 +32,8 @@ function! superman#SuperMan(...)
   setlocal tabstop=8
   setlocal softtabstop=8
   setlocal shiftwidth=8
+  setlocal nolist
+  setlocal colorcolumn=0
 
   " To make us behave more like less
   noremap q :q<CR>
