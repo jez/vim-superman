@@ -9,8 +9,10 @@
 
 " Wrapper around man.vim's Man command
 function! superman#SuperMan(...)
-  " Needed to get access to Man
-  source $VIMRUNTIME/ftplugin/man.vim
+  if exists(":Man") != 2 " No :Man command defined
+    " Needed to get access to Man
+    source $VIMRUNTIME/ftplugin/man.vim
+  endif
 
   " Build and pass off arguments to Man command
   execute 'Man' join(a:000, ' ')
