@@ -35,13 +35,20 @@ vman() {
 }
 ```
 
-Close and reopen your terminal and you're set! If you use zsh, you can even add
+Close and reopen your terminal and you're set! You can even add
 
 ```zsh
 compdef vman="man"
 ```
 
-to your ~/.zshrc to get tab completion.
+to your ~/.zshrc or
+
+```bash
+complete -o default -o nospace -F _man vman
+```
+
+to your ~/.bashrc to get tab completion. (Thanks to texasflood for the Bash
+completion snippet.)
 
 ## Usage
 
