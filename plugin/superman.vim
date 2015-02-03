@@ -2,10 +2,10 @@
 " Author: Jacob Zimmerman <jake@zimmerman.io>
 " License: MIT License
 "
-" URL: <https://github.com/Z1MM32M4N/vim-superman>
+" URL: <https://github.com/jez/vim-superman>
 "
 " Created: Dec 20 2014
-" Modified: Dec 20 2014
+" Modified: Feb 02 2015
 
 " Wrapper around man.vim's Man command
 function! superman#SuperMan(...)

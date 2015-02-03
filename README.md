@@ -16,10 +16,10 @@ though you should probably also take a look at Pathogen, as it's more common.
 
 ```bash
 # if your ~/.vim folder isn't under source control:
-git clone https://github.com/Z1MM32M4N/vim-superman ~/.vim/bundle/
+git clone https://github.com/jez/vim-superman ~/.vim/bundle/
 
 # if your ~/.vim folder is under source control:
-git submodule add https://github.com/Z1MM32M4N/vim-superman ~/.vim/bundle/
+git submodule add https://github.com/jez/vim-superman ~/.vim/bundle/
 ```
 
 Then, add the following to your `.bashrc`, `.bash_profile`, `.zshrc`, or
@@ -96,5 +96,5 @@ MIT License. See LICENSE.
 [blog]: http://blog.zimmerman.io/2014/12/20/vim-as-a-man-page-viewer/
 [sdark]: https://github.com/altercation/vim-colors-solarized
 [vairline]: https://github.com/bling/vim-airline
-[dotfiles]: https://github.com/Z1MM32M4N/dotfiles
+[dotfiles]: https://github.com/jez/dotfiles
 
