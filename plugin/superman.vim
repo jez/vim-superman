@@ -35,7 +35,9 @@ function! superman#SuperMan(...)
   setlocal softtabstop=8
   setlocal shiftwidth=8
   setlocal nolist
-  setlocal colorcolumn=0
+  if exists('+colorcolumn')
+    setlocal colorcolumn=0
+  endif
 
   " To make us behave more like less
   noremap q :q<CR>
