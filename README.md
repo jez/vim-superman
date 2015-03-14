@@ -58,7 +58,7 @@ This predominantly a command line tool. To open the man page for `vim`:
 $ vman vim
 ```
 
-![vman vim](http://blog.zimmerman.io/images/vim.1.png)
+![vman vim](http://blog.jez.io/images/vim.1.png)
 
 It's that simple. The underlying `:Man` command supports specifying a specific
 section, so you could also do something like
@@ -69,7 +69,7 @@ $ vman 3 printf
 
 To see the man page for the C `printf()` library call.
 
-![vman 3 printf](http://blog.zimmerman.io/images/printf.3.png)
+![vman 3 printf](http://blog.jez.io/images/printf.3.png)
 
 ## FAQ
 
@@ -93,7 +93,7 @@ statusbar. If you're curious about my whole setup, be sure to check out my
 MIT License. See LICENSE.
 
 
-[blog]: http://blog.zimmerman.io/2014/12/20/vim-as-a-man-page-viewer/
+[blog]: http://blog.jez.io/2014/12/20/vim-as-a-man-page-viewer/
 [sdark]: https://github.com/altercation/vim-colors-solarized
 [vairline]: https://github.com/bling/vim-airline
 [dotfiles]: https://github.com/jez/dotfiles
