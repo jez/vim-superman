@@ -14,6 +14,7 @@ function! superman#SuperMan(...)
     source $VIMRUNTIME/ftplugin/man.vim
   endif
 
+  set ft=man
   " Build and pass off arguments to Man command
   execute 'Man' join(a:000, ' ')
 
@@ -22,7 +23,7 @@ function! superman#SuperMan(...)
   if line('$') == 1 | cquit | endif
 
   " Why :Man opens up in a split I shall never know
-  only
+  silent only
 
   " Set options appropriate for viewing manpages
   setlocal readonly
