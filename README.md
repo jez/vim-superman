@@ -16,10 +16,10 @@ though you should probably also take a look at Pathogen, as it's more common.
 
 ```bash
 # if your ~/.vim folder isn't under source control:
-git clone https://github.com/jez/vim-superman ~/.vim/bundle/
+git clone https://github.com/jez/vim-superman ~/.vim/bundle/vim-superman
 
 # if your ~/.vim folder is under source control:
-git submodule add https://github.com/jez/vim-superman ~/.vim/bundle/
+git submodule add https://github.com/jez/vim-superman ~/.vim/bundle/vim-superman
 ```
 
 Then, add the following to your `.bashrc`, `.bash_profile`, `.zshrc`, or
