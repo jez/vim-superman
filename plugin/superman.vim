@@ -14,7 +14,6 @@ function! superman#SuperMan(...)
     source $VIMRUNTIME/ftplugin/man.vim
   endif
 
-  set ft=man
   " Build and pass off arguments to Man command
   execute 'Man' join(a:000, ' ')
 
