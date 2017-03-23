@@ -31,6 +31,7 @@ vman() {
 
   if [ "$?" != "0" ]; then
     echo "No manual entry for $*"
+    return
   fi
 
   vim -c "SuperMan $*"
