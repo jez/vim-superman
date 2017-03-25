@@ -26,17 +26,11 @@ Then, add the following to your `.bashrc`, `.bash_profile`, `.zshrc`, or
 whatever file you use to configure your shell:
 
 ```bash
-vman() {
-  man -d $* 2> /dev/null > /dev/null
-
-  if [ "$?" != "0" ]; then
-    echo "No manual entry for $*"
-    return
-  fi
-
-  vim -c "SuperMan $*"
-}
+export PATH="$PATH:$HOME/.vim/bundle/vim-superman/bin"
 ```
+
+(Note: you'll have to change this location if you installed Vim SuperMan
+somewhere else.)
 
 Close and reopen your terminal and you're set! You can even add
 
