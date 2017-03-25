@@ -27,11 +27,14 @@ whatever file you use to configure your shell:
 
 ```bash
 vman() {
-  vim -c "SuperMan $*"
+  man -d $* 2> /dev/null > /dev/null
 
   if [ "$?" != "0" ]; then
     echo "No manual entry for $*"
+    return
   fi
+
+  vim -c "SuperMan $*"
 }
 ```
 
