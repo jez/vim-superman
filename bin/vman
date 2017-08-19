@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
-# Check that manpage exists to prevent visual noise.
-if ! man -d "$@" &> /dev/null; then
+if [ $# -eq 0 ]; then
+  echo "What manual page do you want?";
+  exit 0
+elif ! man -d "$@" &> /dev/null; then
+  # Check that manpage exists to prevent visual noise.
   echo "No manual entry for $*"
   exit 1
 fi
