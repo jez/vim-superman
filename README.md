@@ -72,7 +72,7 @@ To see the man page for the C `printf()` library call.
 
 For more information, see the [associated blog post][blog].
 
-### Jake, why not just call the bash function `man`?
+### Jake, why not just name the bash function `man`?
 
 The actual `man` command supports many more features than the Vim plugin does
 (for a complete list, see `man(1)`). If you shadow the real `man` command,
