@@ -38,6 +38,13 @@ function! superman#SuperMan(...)
   if exists('+colorcolumn')
     setlocal colorcolumn=0
   endif
+  
+  " Hide bottom bar
+  " See https://unix.stackexchange.com/questions/140898/vim-hide-status-line-in-the-bottom
+  setlocal noshowmode
+  setlocal noruler
+  setlocal laststatus=0
+  setlocal noshowcmd
 
   " To make us behave more like less
   noremap q :q<CR>
