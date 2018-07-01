@@ -9,4 +9,4 @@ elif ! man -d "$@" &> /dev/null; then
   exit 1
 fi
 
-vim -c "SuperMan $*"
+${EDITOR:-vim} -c "SuperMan $*"
