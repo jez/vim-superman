@@ -38,7 +38,7 @@ function! superman#SuperMan(...)
   endif
 
   " To make us behave more like less
-  noremap q :q<CR>
+  nnoremap <buffer> q :q<CR>
 endfunction
 
 " Command alias for our function
