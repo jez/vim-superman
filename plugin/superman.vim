@@ -27,6 +27,7 @@ function! superman#SuperMan(...)
   " Set options appropriate for viewing manpages
   setlocal readonly
   setlocal nomodifiable
+  setlocal noswapfile
 
   setlocal noexpandtab
   setlocal tabstop=8
