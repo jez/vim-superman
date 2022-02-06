@@ -29,6 +29,12 @@ whatever file you use to configure your shell:
 export PATH="$PATH:$HOME/.vim/bundle/vim-superman/bin"
 ```
 
+If you're using `fish` shell:
+
+```bash
+ln -s ~/.config/fish/function/vman.fish ~/.vim/bundle/vim-superman/bin/fish/vman.fish
+```
+
 (Note: you'll have to change this location if you installed Vim SuperMan
 somewhere else.)
 
@@ -46,6 +52,8 @@ complete -o default -o nospace -F _man vman
 
 to your ~/.bashrc to get tab completion. (Thanks to texasflood for the Bash
 completion snippet.)
+
+In case of `fish` shell, tab completion works out of the box.
 
 ## Usage
 
