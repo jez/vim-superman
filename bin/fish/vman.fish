@@ -8,6 +8,5 @@ function vman -d "Read man pages with vim"
    end 
 
    set -l ed $EDITOR 'vim'; and set -l ed $ed[1]
-   echo $ed
    $ed -c "SuperMan $argv"
 end
