@@ -40,6 +40,7 @@ function! superman#SuperMan(...)
 
   " To make us behave more like less
   noremap q :q<CR>
+  noremap <SPACE> <C-d>
 endfunction
 
 " Command alias for our function
